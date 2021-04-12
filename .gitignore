@@ -1,0 +1,19 @@
+.vscode/
+# local caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# artifacts
+build/
+dist/
+*.egg-info/
+
+# misc
+.DS_Store
+*.swp
+
+# workspace notes
+notes.json
+session-dump.log
