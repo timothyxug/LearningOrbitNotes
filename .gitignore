@@ -1,0 +1,11 @@
+# runtime artifacts
+node_modules/
+dist/cache/
+.DS_Store
+# environment snapshots
+.env.local
+.env
+AGENTS.md
+.vscode/
+logs/
+*.log
