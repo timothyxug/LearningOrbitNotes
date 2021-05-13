@@ -22,6 +22,10 @@ A solo effort named **Learning Orbit Capsule** that keeps sketchy, high-level re
 2. Run `python scripts/compose_notes.py` to see an ensemble of study fragments for the day.
 3. Save the output somewhere meaningful (not in this repo) to keep the energy stored offline.
 
+## Session Reports
+- `python scripts/compose_notes.py --plan` prints the session prompt before the entries so the intention is always visible.
+- `python scripts/session_report.py` dumps the same prompt plus entry details and timeline as JSON for later journaling; use `--output` to capture it and `--compact` when the file should stay terse.
+
 ## Future Work
 - capture the generated notes into a simple JSON timeline for manual review.
 - stitch the habits into a cheap automation so each run records a timestamp and mood.
