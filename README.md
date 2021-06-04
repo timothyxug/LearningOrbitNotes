@@ -14,3 +14,8 @@ OrbitIdeaForge is a solo learning project that captures the real-world feel of t
 
 ## Running the idea generator
 There is a CLI entry point under `src/runner.ts` that can be used to produce ideas from the command line or extend the generator for new formats. All code is written in TypeScript so the project can grow (for example) into a Deno script or a quick node-based prototype later.
+
+## Daily practice notes
+- Keep `docs/lab-notes.md` fresh after each moderate coding session to capture what really changed and why it felt interesting.
+- Dump thoughts into `docs/experiment-log.md` when an idea feels worth revisiting; that log is my nightly review for the week.
+- The roadmap file tracks the next three tickets so even this tiny repo feels like a living weekend project.
