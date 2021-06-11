@@ -1,11 +1,24 @@
 # runtime artifacts
 node_modules/
+build/
+dist/
 dist/cache/
+*.egg-info/
+*.swp
 .DS_Store
+
+# python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
 # environment snapshots
-.env.local
 .env
-AGENTS.md
-.vscode/
+.env.local
 logs/
 *.log
+session-dump.log
+notes.json
+AGENTS.md
+.vscode/
